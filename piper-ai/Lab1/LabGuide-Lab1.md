@@ -12,6 +12,7 @@ He/She will also understand as an Infra admin how components are stitched togeth
 2. Breakdown and understand the constructs of an offering via Infrastructure panel.
 
 # Practice
+## Creating a vCluster
 1. Log in to Dell's console at [dell.rafay.dev](https://dell.rafay.dev)
 2. Click on the nine dots button
 3. Navigate to "Developer Hub" 
@@ -23,5 +24,25 @@ He/She will also understand as an Infra admin how components are stitched togeth
 9. "Lab 1 - vCluster" service was provisioned by administrator to us as a template. Let's create a service out of it by clicking on "Select".
 10. Give your vCluster a name and click "Deploy"
 11. The cluster will start to be provisioned. It's progress can be monitored in "Status Tracker".
-12. 
+12. Wait till the status turns to "Success". Congratulation! You're created a Kubernetes cluster!
 
+## Cluster administration options
+1. Click on the nine dots button and select "Infrastructure"
+2. Since the newly created cluster is hosted in "engcheng-testing" project, we will select "Go to project".
+3. In the console shows "Infrastructure" -> "Clusters" and the newly created cluster is shown as well. 
+4. On the top row, 3 quick access buttons available are:
+  - "KUBECTL" - for administrators to interact with the cluster through `kubectl` command
+  - "RESOURCES" - to get a quick overview of the resources consumed by the cluster
+  - "DASHBOARD" - multiple views of the cluster including general stats and cost related information.
+
+## Running workload on the cluster
+1. Select "KUBECTL" where a console will be shown below.
+2. The console provides a secure way to interact and issue commands to the cluster with "kubectl" as a prefix, barring other commands.
+3. Run the command `kubectl run nginx --image=nginx`. The return result `pod/nginx created` shows that pod was created.
+4. Using `kubectl get pods`, make sure nginx pod is in `running` status.
+5. The pod is available only internally. Let's make it externally reachable through the command:
+   `kubectl expose pod/nginx --port=80 --name nginx --type=LoadBalancer`
+6. After a brief moment, we can check the result of exposing the service. Enter the command: `kubectl get svc nginx`.
+7. The successful deployment will see under EXTERNAL-IP having value similar to `a43c1adabd2ce48d1b1b0da378b761bb-2136871209.ap-northeast-1.elb.amazonaws.com`
+8. Open a browser with the URL indicated. You will see "Welcome to nginx!".
+9. Congragulation! You've completed deploying a workload.
