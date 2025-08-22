@@ -18,7 +18,7 @@ He/She will also understand as an Infra admin how components are stitched togeth
 3. Navigate to "Developer Hub" 
 4. Over here, user choose to provision multiple types of services in self-service manner
 ![Types of service](./assets/S1_4.png "Different types of services")
-5. Make sure you have selected the right project "engcheng-testing"
+5. Make sure you have selected the right project "engcheng-testing" \
 ![Choose the right project](./assets/S1_5.png "Choose the right project")
 6. Click "Create a Workspace" and give it a unique, memorable name.
 7. With the workspace available to house different services, select "Compute Instances" on the left.
@@ -28,7 +28,7 @@ He/She will also understand as an Infra admin how components are stitched togeth
 10. Give your vCluster a name and click "Deploy"
 ![A name for vCluster](./assets/S1_10.png "Cluster name. Choose the right workspace")
 11. The cluster will start to be provisioned. It's progress can be monitored in "Status Tracker".
-12. Wait till the status turns to "Success". Congratulation! You're created a Kubernetes cluster!
+12. Wait till the status turns to "Success". Congratulation! You're created a Kubernetes cluster! \
 ![Status panel](./assets/S1_12.png "Updating progress ... till Success!")
 
 ## Cluster administration options
