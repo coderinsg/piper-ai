@@ -17,7 +17,7 @@ In this exercise,
 1. Log in to Dell's console at [https://dell.rafay.dev](https://dell.rafay.dev)
 2. Click on the nine dots button on the top left
 3. Navigate to `Developer Hub`
-4. Over here, user choose to provision multiple types of services in self-service manner
+4. Over here, click the `New Notebook` under the `Notebook` Profiles
 ![Select Notebook](./assets/L2-Select-Notebook.png "Select Notebook")
 5. `Lab 1 - vCluster` service was provisioned by administrator to us as a template. Let's create a service out of it by clicking on `Select`.
 ![Select Notebook Profiles](./assets/L2-Select-Notebook-Profiles.png "Select Notebook Profiles")
