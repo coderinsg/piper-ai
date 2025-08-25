@@ -14,7 +14,7 @@ In this exercise,
 
 # Practice
 ## Creating a vCluster
-1. Log in to Dell's console at `[dell.rafay.dev]`(https://dell.rafay.dev)
+1. Log in to Dell's console at `[dell.rafay.dev](https://dell.rafay.dev)`
 2. Click on the nine dots button on the top left
 3. Navigate to `Developer Hub`
 4. Over here, user choose to provision multiple types of services in self-service manner
