@@ -19,9 +19,9 @@ In this exercise,
 3. Navigate to `Developer Hub`
 4. Over here, user choose to provision multiple types of services in self-service manner
 ![Select Notebook](./assets/L2-Select-Notebook.png "Select Notebook")
-5. "Lab 1 - vCluster" service was provisioned by administrator to us as a template. Let's create a service out of it by clicking on "Select".
+5. `Lab 1 - vCluster` service was provisioned by administrator to us as a template. Let's create a service out of it by clicking on `Select`.
 ![Select Notebook Profiles](./assets/L2-Select-Notebook-Profiles.png "Select Notebook Profiles")
-10. Give your vCluster a name and click "Deploy"
+10. Give your vCluster a name and click `Deploy`
 ![A name for vCluster](./assets/S1_10.png "Cluster name. Choose the right workspace")
 11. The cluster will start to be provisioned. It's progress can be monitored in "Status Tracker".
 12. Wait till the status turns to "Success". Congratulation! You're created a Kubernetes cluster! \
