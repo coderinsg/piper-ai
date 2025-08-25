@@ -26,7 +26,7 @@ In this exercise,
 ![A unique name for your Jupyterhub](./assets/L2-App-Name.png "Enter Unique App's Name")
 8. The Jupyterhub will start to be provisioned. It's progress can be monitored in `Status Tracker`
 ![Status panel](./assets/L2-Deploy-In-Progress.png "Deployment in progress ... till Success!")
-9. Wait till the status turns to `Success`. You shall see the `URL` and `vCluster` shown under the `Output` \
+9. Wait till the status turns to `Success` under the `Overview` <br> You shall see the `URL` and `vCluster` shown under the `Output` \
 ![Status panel](./assets/L2-JupyterHub-Deployed.png "Updating progress ... till Success!")
 
 ## Login to the newly provisioned JupyerHub instance
