@@ -13,7 +13,7 @@ In this exercise,
 2. Login to the newly provisioned JupyerHub instance.
 
 # Practice
-## Creating a vCluster
+## Deploying a new Jupyterhub instance
 1. Log in to Dell's console at [https://dell.rafay.dev](https://dell.rafay.dev)
 2. Click on the nine dots button on the top left
 3. Navigate to `Developer Hub`
