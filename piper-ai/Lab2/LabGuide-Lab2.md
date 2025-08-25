@@ -18,12 +18,12 @@ In this exercise,
 2. Click on the nine dots button on the top left <br>
    Navigate to `Developer Hub`
 3. Over here, click the `New Notebook` button under the `Notebooks` Profiles
-![Select Notebook](./assets/L2-Select-Notebook.png "Select Notebook" | width=100)
+![Select Notebook](./assets/L2-Select-Notebook.png | width=100)
 4. `Lab 2 - Jupyterhub` service was provisioned by administrator to us as a template. Let's create a new service instance by clicking on `Select` button
-![Select Notebook Profiles](./assets/L2-Select-Notebook-Profiles.png "Select Notebook Profiles" | width=100)
+![Select Notebook Profiles](./assets/L2-Select-Notebook-Profiles.png | width=100)
 5. Give your new Jupyterhub instance a name and click `Deploy` button <br>
    (`Note`: Keep your workspace the same as in Lab 1)
-![A unique name for your Jupyterhub](./assets/L2-App-Name.png "Enter Unique App's Name")
+![A unique name for your Jupyterhub](./assets/L2-App-Name.png | width=100)
 6. The Jupyterhub will start to be provisioned. It's progress can be monitored in `Status Tracker`
 ![Status panel](./assets/L2-Deploy-In-Progress.png "Deployment in progress ... till Success!")
 7. Wait till the status turns to `Success` under the `Overview`. <br>
