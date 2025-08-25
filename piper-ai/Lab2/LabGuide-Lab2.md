@@ -22,7 +22,7 @@ In this exercise,
 5. `Lab 2 - Jupyterhub` service was provisioned by administrator to us as a template. Let's create a new service instance by clicking on `Select` button
 ![Select Notebook Profiles](./assets/L2-Select-Notebook-Profiles.png "Select Notebook Profiles")
 6. Give your new Jupyterhub instance a name and click `Deploy` button <br>
-   (Note: Keep your workspace the same as in Lab 1)
+   (`Note`: Keep your workspace the same as in Lab 1)
 ![A unique name for your Jupyterhub](./assets/L2-App-Name.png "Enter Unique App's Name")
 8. The Jupyterhub will start to be provisioned. It's progress can be monitored in `Status Tracker`
 ![Status panel](./assets/L2-Deploy-In-Progress.png "Deployment in progress ... till Success!")
