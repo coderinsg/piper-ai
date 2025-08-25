@@ -29,7 +29,7 @@ In this exercise,
 9. Wait till the status turns to "Success". Congratulation! You're created a Kubernetes cluster! \
 ![Status panel](./assets/S1_12.png "Updating progress ... till Success!")
 
-## Cluster administration options
+## Login to the newly provisioned JupyerHub instance
 1. Click on the nine dots button and select "Infrastructure"
 2. Since the newly created cluster is hosted in "engcheng-testing" project, we will select "Go to project".
 ![Go to Project](./assets/S2_2.png "Selecting the right project")
