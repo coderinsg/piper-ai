@@ -32,7 +32,12 @@ In this exercise,
 ![Status panel](./assets/L2-JupyterHub-Deployed.png "Updating progress ... till Success!")
 8. Click on the nine dots button on the top left <br>
    Navigate to `Infrastructure`
+   Under  `engcheng-testing ` project on the right, click on `Go to Project` button
 ![Go To Project](./assets/L2-Go-To-Project.png)
+9. Click on `My Clusters` menu option on the left <br>
+   Check the running status of the vcluster which you noted down in the previous step, wait until the `Status` shows `HEALTHY` <br>
+   (`Note:` Your newly deployed JupyterHub is runing on a vCluster for security with isolation purpose.
+![Check vCluster Status](./assets/L2-Check-vCluster-Status.png)
 
 ## Login to the newly provisioned JupyerHub instance
 1. Click on the nine dots button and select "Infrastructure"
