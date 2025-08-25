@@ -9,7 +9,7 @@ In this exercise,
 2. Participant to use `Developer Hub` as the Rafay Self-Service Console to launch a new instance of Jupyterhub. 
 
 # Sections
-1. Create a new Jupyterhub instance through Developer Hub as the Rafay Self-Service Console.
+1. Create a new Jupyterhub instance through `Developer Hub` as the Rafay Self-Service Console.
 2. Login to the newly provisioned Jupyerhub instance.
 
 # Practice
