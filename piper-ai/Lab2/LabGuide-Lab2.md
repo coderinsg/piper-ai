@@ -44,27 +44,7 @@ In this exercise,
 1. Open a new browser tab, paste the URL of the JupyterHub on the browser's address bar <br>
    You may key in any `Username` with EMPTY `Password`  <br>
 ![JupyterHub login page](./assets/L2-JupyterHub-Landing-Page.png)
-
-3. Since the newly created cluster is hosted in "engcheng-testing" project, we will select "Go to project".
-![Go to Project](./assets/S2_2.png "Selecting the right project")
-4. In the console shows "Infrastructure" -> "Clusters" and the newly created cluster is shown as well. 
-![Checking our project](./assets/S2_3png "Our newly created cluster is here!")
-5. On the top row, 3 quick access buttons available are:
-![3 quick buttons](./assets/S2_4.png "Quick access buttons")
-  - "KUBECTL" - for administrators to interact with the cluster through `kubectl` command
-  - "RESOURCES" - to get a quick overview of the resources consumed by the cluster
-  - "DASHBOARD" - multiple views of the cluster including general stats and cost related information.
-
-## Running workload on the cluster
-1. Select "KUBECTL" where a console will be shown below.
-2. The console provides a secure way to interact and issue commands to the cluster with "kubectl" as a prefix, barring other commands.
-3. Run the command `kubectl run nginx --image=nginx`. The return result `pod/nginx created` shows that pod was created.
-4. Using `kubectl get pods`, make sure nginx pod is in `running` status.
-5. The pod is available only internally. Let's make it externally reachable through the command:
-   `kubectl expose pod/nginx --port=80 --name nginx --type=LoadBalancer`
-6. After a brief moment, we can check the result of exposing the service. Enter the command: `kubectl get svc nginx`.
-![Expose nginx](./assets/S3_6.png "Exposing nginx service")
-7. The successful deployment will see under EXTERNAL-IP having value similar to `a43c1adabd2ce48d1b1b0da378b761bb-2136871209.ap-northeast-1.elb.amazonaws.com`
-8. Open a browser with the URL indicated. You will see "Welcome to nginx!".
-![Checking nginx](./assets/S3_8.png "Verifying our setup.")
-9. Congragulation! You've completed deploying a workload.
+2. After login to the JupyterHub, click the `Start` button to launch the JupyterLab <br>
+![Launch JupyterLab](./assets/L2-Launch-Single-User-JupyterHub.png)
+3. Congragulation! You've completed deploying the JupyterHub with JupyterLab.
+![Success Loading](./assets/L2-JupyterLab-Success-Loading.png)
