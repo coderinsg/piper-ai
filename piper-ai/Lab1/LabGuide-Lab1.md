@@ -2,17 +2,46 @@
 The purpose of lab 1 & 2 is to familiarize participants with basic functionality of Rafay console. This exercise ties together multiple concepts within Rafay to create a useable and tangible outcome. The new understanding aims to encourage and trigger imagination of partipants to extend it with other serviecs.
 
 # Lab objectives
-In this exercise, Participant will play the role of an end-user that request for Kubernetes cluster. He/She will also understand as an Infra admin how components are stitched together to make up an offerings.
+In this exercise, 
+1. Participant will play the role of an end-user that request for Kubernetes cluster.
+2. He/She will also understand as an Infra admin how components are stitched together to make up an offerings.
 
 # Sections
-1. Create a virtual kubernetes cluster through self-service console in Workspace.
+1. Provision a virtual kubernetes cluster through Rafay Self-Service Console under `Developer Hub`.
 2. Breakdown and understand the constructs of an offering via Infrastructure panel.
 
 # Practice
-## Creating a vCluster
-1. Log in to Dell's console at [dell.rafay.dev](https://dell.rafay.dev)
-2. Click on the nine dots button
-3. Navigate to "Developer Hub" 
+## Section 1 - Provision a virtual kubernetes cluster (vCluster)
+1. Log in to Dell's console at [https://dell.rafay.dev](https://dell.rafay.dev) <br><br>
+2. Click on the nine dots button on the top left <br>
+   Navigate to `Developer Hub` <br><br>
+3. On the right panel, there are multiple type of services which you can deploy in self-service manner. <br>
+  (`Compute`, `Notebooks`, `Inference Endpoints`, `AI/ML Jobs`, `Custom Services`) <br><br>
+4. Click the `New Compute Instance` button under the `Compute` Profiles
+![Select Compute Instance](./assets/L1-Select-Compute-Instance.png "Select Compute Instance") <br><br>
+4. `Lab 2 - Jupyterhub` service template was created by infra administrator. <br>
+   Let's create a new service instance by clicking on `Select` button
+![Click Select button](./assets/L2-Select-Notebook-Profiles.png "Click Select Button") <br><br>
+6. Give your new Jupyterhub instance a unique name and click `Deploy` button <br>
+   (`Note`: Keep your workspace the same as in Lab 1)
+![A unique name for your Jupyterhub](./assets/L2-App-Name.png) <br><br>
+7. The Jupyterhub will start to be provisioned. It's progress can be monitored in `Status Tracker`
+![Status panel](./assets/L2-Deploy-In-Progress.png "Deployment in progress ... till Success!") <br><br>
+8. Wait till the status turns to `Success` under the `Overview`. <br>
+   You shall see the `URL` and `vCluster` shown under the `Output`. <br>
+   Try to note down both the values for the next steps.
+![Success Deployment](./assets/L2-JupyterHub-Deployed.png "Success Deployment") <br><br>
+9. Click on the nine dots button on the top left <br>
+   Navigate to `Infrastructure` <br>
+   Under  `engcheng-testing ` project on the right, click on `Go to Project` button
+![Go To Project](./assets/L2-Go-To-Project.png) <br><br>
+10. Click on `My Clusters` menu option on the left <br>
+   Check the running status of the vcluster which you noted down in the previous step, wait until the `Status` shows `HEALTHY` <br>
+   (`Note:` Your newly deployed Jupyterhub is actually runing on a vCluster for security with isolation purpose.)
+![Check vCluster Status](./assets/L2-Check-vCluster-Status.png) <br><br>
+11. Congratulatons! You have your own Jupyterhub deployed successfully! <br><br>
+
+
 4. Over here, user choose to provision multiple types of services in self-service manner
 ![Types of service](./assets/S1_4.png "Different types of services")
 5. Make sure you have selected the right project "engcheng-testing" \
