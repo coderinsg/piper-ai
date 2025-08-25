@@ -15,20 +15,24 @@ In this exercise,
 # Practice
 ## Create a new Jupyterhub instance
 1. Log in to Dell's console at [https://dell.rafay.dev](https://dell.rafay.dev)
-2. Click on the nine dots button on the top left
-3. Navigate to `Developer Hub`
-4. Over here, click the `New Notebook` button under the `Notebooks` Profiles
+2. Click on the nine dots button on the top left <br>
+   Navigate to `Developer Hub`
+3. Over here, click the `New Notebook` button under the `Notebooks` Profiles
 ![Select Notebook](./assets/L2-Select-Notebook.png "Select Notebook")
-5. `Lab 2 - Jupyterhub` service was provisioned by administrator to us as a template. Let's create a new service instance by clicking on `Select` button
+4. `Lab 2 - Jupyterhub` service was provisioned by administrator to us as a template. Let's create a new service instance by clicking on `Select` button
 ![Select Notebook Profiles](./assets/L2-Select-Notebook-Profiles.png "Select Notebook Profiles")
-6. Give your new Jupyterhub instance a name and click `Deploy` button <br>
+5. Give your new Jupyterhub instance a name and click `Deploy` button <br>
    (`Note`: Keep your workspace the same as in Lab 1)
 ![A unique name for your Jupyterhub](./assets/L2-App-Name.png "Enter Unique App's Name")
-8. The Jupyterhub will start to be provisioned. It's progress can be monitored in `Status Tracker`
+6. The Jupyterhub will start to be provisioned. It's progress can be monitored in `Status Tracker`
 ![Status panel](./assets/L2-Deploy-In-Progress.png "Deployment in progress ... till Success!")
-9. Wait till the status turns to `Success` under the `Overview`. <br>
-   You shall see the `URL` and `vCluster` shown under the `Output`.
+7. Wait till the status turns to `Success` under the `Overview`. <br>
+   You shall see the `URL` and `vCluster` shown under the `Output`. <br>
+   Try to note down both the values for the next steps.
 ![Status panel](./assets/L2-JupyterHub-Deployed.png "Updating progress ... till Success!")
+8. Click on the nine dots button on the top left <br>
+   Navigate to `Infrastructure`
+![Go To Project](./assets/L2-Go-To-Project.png)
 
 ## Login to the newly provisioned JupyerHub instance
 1. Click on the nine dots button and select "Infrastructure"
