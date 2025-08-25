@@ -19,7 +19,7 @@ In this exercise,
 3. Navigate to `Developer Hub`
 4. Over here, click the `New Notebook` under the `Notebooks` Profiles
 ![Select Notebook](./assets/L2-Select-Notebook.png "Select Notebook")
-5. `Lab 1 - vCluster` service was provisioned by administrator to us as a template. Let's create a service out of it by clicking on `Select`.
+5. `Lab 2 - Jupyterhub` service was provisioned by administrator to us as a template. Let's create a service out of it by clicking on `Select`.
 ![Select Notebook Profiles](./assets/L2-Select-Notebook-Profiles.png "Select Notebook Profiles")
 10. Give your vCluster a name and click `Deploy`
 ![A name for vCluster](./assets/S1_10.png "Cluster name. Choose the right workspace")
