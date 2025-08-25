@@ -21,7 +21,7 @@ In this exercise,
 ![Select Notebook](./assets/L2-Select-Notebook.png "Select Notebook")
 5. `Lab 2 - Jupyterhub` service was provisioned by administrator to us as a template. Let's create a service out of it by clicking on `Select`.
 ![Select Notebook Profiles](./assets/L2-Select-Notebook-Profiles.png "Select Notebook Profiles")
-6. Give your new Jupyterhub instance a name and click `Deploy`
+6. Give your new Jupyterhub instance a name and click `Deploy` <br>
    (Note: Keep your workspace the same as in Lab 1)
 ![A unique name for your Jupyterhub](./assets/L2-App-Name.png "Enter Unique App's Name")
 8. The cluster will start to be provisioned. It's progress can be monitored in "Status Tracker".
