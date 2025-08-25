@@ -36,16 +36,20 @@ In this exercise,
 ![Go To Project](./assets/L2-Go-To-Project.png)
 9. Click on `My Clusters` menu option on the left <br>
    Check the running status of the vcluster which you noted down in the previous step, wait until the `Status` shows `HEALTHY` <br>
-   (`Note:` Your newly deployed JupyterHub is runing on a vCluster for security with isolation purpose.
+   (`Note:` Your newly deployed JupyterHub is runing on a vCluster for security with isolation purpose.)
 ![Check vCluster Status](./assets/L2-Check-vCluster-Status.png)
+10. Congratulatons! You have your own JupyterHub deployed successfully!
 
 ## Login to the newly provisioned JupyerHub instance
-1. Click on the nine dots button and select "Infrastructure"
-2. Since the newly created cluster is hosted in "engcheng-testing" project, we will select "Go to project".
+1. Open a new browser tab, paste the URL of the JupyterHub on the browser's address bar <br>
+   You may key in any `Username` with EMPTY `Password`  <br>
+![JupyterHub login page](./assets/L2-JupyterHub-Landing-Page.png)
+
+3. Since the newly created cluster is hosted in "engcheng-testing" project, we will select "Go to project".
 ![Go to Project](./assets/S2_2.png "Selecting the right project")
-3. In the console shows "Infrastructure" -> "Clusters" and the newly created cluster is shown as well. 
+4. In the console shows "Infrastructure" -> "Clusters" and the newly created cluster is shown as well. 
 ![Checking our project](./assets/S2_3png "Our newly created cluster is here!")
-4. On the top row, 3 quick access buttons available are:
+5. On the top row, 3 quick access buttons available are:
 ![3 quick buttons](./assets/S2_4.png "Quick access buttons")
   - "KUBECTL" - for administrators to interact with the cluster through `kubectl` command
   - "RESOURCES" - to get a quick overview of the resources consumed by the cluster
