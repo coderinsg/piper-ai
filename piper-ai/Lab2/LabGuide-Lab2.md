@@ -4,7 +4,9 @@ This exercise ties together multiple concepts within Rafay to create a useable a
 The new understanding aims to encourage and trigger imagination of partipants to extend it with other serviecs.
 
 # Lab 2 objectives
-In this exercise, participant will play the role of a Data Scientist / AI Developer to launch a new instance of JupyterHub using the Rafay Developer Hub as the self-service portal.
+In this exercise, 
+1. Participant will play the role of a Data Scientist / AI Developer.
+2. Participant to use Rafay Developer Hub as the self-service portal to launch a new instance of JupyterHub. 
 
 # Sections
 1. Create a virtual kubernetes cluster through self-service console in Workspace.
