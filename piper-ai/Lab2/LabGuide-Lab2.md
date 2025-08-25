@@ -18,7 +18,7 @@ In this exercise,
 2. Click on the nine dots button on the top left
 3. Navigate to `Developer Hub`
 4. Over here, user choose to provision multiple types of services in self-service manner
-![Select Notebook](L2-Select-Notebook.png "Select Notebook")
+![Select Notebook](./assets/L2-Select-Notebook.png "Select Notebook")
 5. Make sure you have selected the right project "engcheng-testing" \
 ![Choose the right project](./assets/S1_5.png "Choose the right project")
 6. Click "Create a Workspace" and give it a unique, memorable name.
