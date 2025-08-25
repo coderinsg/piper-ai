@@ -1,11 +1,10 @@
 # Introduction
-The purpose of this lab is to familarize participants with basic functionality of Rafay console. 
+The purpose of lab 1 and lab 2 is to familarize participants with basic functionality of Rafay console. 
 This exercise ties together multiple concepts within Rafay to create a useable and tangible outcome.
 The new understanding aims to encourage and trigger imagination of partipants to extend it with other serviecs.
 
-# Lab objectives
-In this exercise, participant will play the role of an end-user that request for Kubernetes cluster.
-He/She will also understand as an Infra admin how components are stitched together to make up an offerings.
+# Lab 2 objectives
+In this exercise, participant will play the role of a Data Scientist / AI Developer to launch a new instance of JupyterHub using the Rafay Developer Hub as the self-service portal.
 
 # Sections
 1. Create a virtual kubernetes cluster through self-service console in Workspace.
