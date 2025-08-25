@@ -41,44 +41,28 @@ In this exercise,
 ![Check vCluster Status](./assets/L1-Check-vCluster-Status.png) <br><br>
 11. Congratulatons! You have your own virtual kubernetes cluster deployed successfully! <br><br>
 
-
-4. Over here, user choose to provision multiple types of services in self-service manner
-![Types of service](./assets/S1_4.png "Different types of services")
-5. Make sure you have selected the right project "engcheng-testing" \
-![Choose the right project](./assets/S1_5.png "Choose the right project")
-6. Click "Create a Workspace" and give it a unique, memorable name.
-7. With the workspace available to house different services, select "Compute Instances" on the left.
-8. We can see that there are no compute instances running currently. Let's create one by selecting "New Compute Instance".
-9. "Lab 1 - vCluster" service was provisioned by administrator to us as a template. Let's create a service out of it by clicking on "Select".
-![Creating a new cluster](./assets/S1_9.png "Creating a new cluster")
-10. Give your vCluster a name and click "Deploy"
-![A name for vCluster](./assets/S1_10.png "Cluster name. Choose the right workspace")
-11. The cluster will start to be provisioned. It's progress can be monitored in "Status Tracker".
-12. Wait till the status turns to "Success". Congratulation! You're created a Kubernetes cluster! \
-![Status panel](./assets/S1_12.png "Updating progress ... till Success!")
-
-## Cluster administration options
-1. Click on the nine dots button and select "Infrastructure"
-2. Since the newly created cluster is hosted in "engcheng-testing" project, we will select "Go to project".
-![Go to Project](./assets/S2_2.png "Selecting the right project")
-3. In the console shows "Infrastructure" -> "Clusters" and the newly created cluster is shown as well. 
-![Checking our project](./assets/S2_3png "Our newly created cluster is here!")
-4. On the top row, 3 quick access buttons available are:
-![3 quick buttons](./assets/S2_4.png "Quick access buttons")
-  - "KUBECTL" - for administrators to interact with the cluster through `kubectl` command
-  - "RESOURCES" - to get a quick overview of the resources consumed by the cluster
-  - "DASHBOARD" - multiple views of the cluster including general stats and cost related information.
-
 ## Run a workload on the newly provisioned virtual kubernetes cluster
-1. Select "KUBECTL" where a console will be shown below.
-2. The console provides a secure way to interact and issue commands to the cluster with "kubectl" as a prefix, barring other commands.
-3. Run the command `kubectl run nginx --image=nginx`. The return result `pod/nginx created` shows that pod was created.
-4. Using `kubectl get pods`, make sure nginx pod is in `running` status.
-5. The pod is available only internally. Let's make it externally reachable through the command:
-   `kubectl expose pod/nginx --port=80 --name nginx --type=LoadBalancer`
-6. After a brief moment, we can check the result of exposing the service. Enter the command: `kubectl get svc nginx`.
-![Expose nginx](./assets/S3_6.png "Exposing nginx service")
-7. The successful deployment will see under EXTERNAL-IP having value similar to `a43c1adabd2ce48d1b1b0da378b761bb-2136871209.ap-northeast-1.elb.amazonaws.com`
-8. Open a browser with the URL indicated. You will see "Welcome to nginx!".
-![Checking nginx](./assets/S3_8.png "Verifying our setup.")
-9. Congragulation! You've completed deploying a workload.
+1. Back to your vCluster under the `My Clusters`, you will see 4 quick access buttons:
+![4 quick buttons](./assets/L1-4-Quick-Access-Buttons.png "Quick access buttons")
+  - `KUBECTL` - for administrators to interact with the cluster through `kubectl` command
+  - `RESOURCES` - to get a quick overview of the resources consumed by the cluster
+  - `DASHBOARD` - multiple views of the cluster including general stats and cost related information.
+  - `UTILIZATION` - a list of resources types, resource quotas (project and namespace limit) and the limit utilized by each resource operational on a given Kubernetes cluster. <br><br>
+2. Click "KUBECTL" button same row of your vCluster where a console will be shown below. <br>
+   ![Kubectl Console](./assets/L1-Kubectl-Console.png "Kubectl Console")
+   The console provides a secure way to interact and issue commands to the cluster with `kubectl` as a prefix, barring other commands. <br><br>
+3. Run the command: `kubectl run nginx --image=nginx`. <br>
+   The return result `pod/nginx created` shows that pod was created. <br><br>
+4. Run the command: `kubectl get pods`. <br>
+   Make sure nginx pod is in `running` status. <br><br>
+5. The pod is available only internally. Let's make it externally reachable through the command: <br>
+   `kubectl expose pod/nginx --port=80 --name nginx --type=LoadBalancer` <br><br>
+6. After a brief moment, we can check the result of exposing the service. <br>
+   Enter the command: `kubectl get svc nginx`.
+   ![Expose nginx](./assets/S3_6.png "Exposing nginx service") <br><br>
+7. The successful deployment will see under EXTERNAL-IP having value similar to: <br>
+   `a43c1adabd2ce48d1b1b0da378b761bb-2136871209.ap-northeast-1.elb.amazonaws.com` <br><br>
+8. Open a browser with the URL indicated. You will see `Welcome to nginx!` <br>
+   (`Note`: The classic load balancer from AWS might take 15-20 seconds to be ready, if the first loading is not successful, please wait a while and try again) <br>
+   ![Checking nginx](./assets/S3_8.png "Verifying our setup.") <br><br>
+9. Congratulation! You've completed deploying a workload on your newly deployed vcluster!
