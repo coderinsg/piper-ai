@@ -19,7 +19,7 @@ In this exercise,
 3. Navigate to `Developer Hub`
 4. Over here, click the `New Notebook` under the `Notebooks` Profiles
 ![Select Notebook](./assets/L2-Select-Notebook.png "Select Notebook")
-5. `Lab 2 - Jupyterhub` service was provisioned by administrator to us as a template. Let's create a service out of it by clicking on `Select`.
+5. `Lab 2 - Jupyterhub` service was provisioned by administrator to us as a template. Let's create a service out of it by clicking on `Select`
 ![Select Notebook Profiles](./assets/L2-Select-Notebook-Profiles.png "Select Notebook Profiles")
 6. Give your new Jupyterhub instance a name and click `Deploy`
    (Note: Keep your workspace the same as in Lab 1)
