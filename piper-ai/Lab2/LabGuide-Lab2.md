@@ -6,11 +6,11 @@ The new understanding aims to encourage and trigger imagination of partipants to
 # Lab 2 objectives
 In this exercise, 
 1. Participant will play the role of a Data Scientist / AI Developer.
-2. Participant to use Rafay Developer Hub as the self-service portal to launch a new instance of JupyterHub. 
+2. Participant to use Developer Hub as the Rafay Self-Service Console to launch a new instance of JupyterHub. 
 
 # Sections
-1. Create a virtual kubernetes cluster through self-service console in Workspace.
-2. Breakdown and understand the constructs of an offering via Infrastructure panel.
+1. Create a new JupyterHub instance through Developer Hub as the Rafay Self-Service Console.
+2. Login to the newly provisioned JupyerHub instance.
 
 # Practice
 ## Creating a vCluster
