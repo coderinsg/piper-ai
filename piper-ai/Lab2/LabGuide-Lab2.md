@@ -19,13 +19,8 @@ In this exercise,
 3. Navigate to `Developer Hub`
 4. Over here, user choose to provision multiple types of services in self-service manner
 ![Select Notebook](./assets/L2-Select-Notebook.png "Select Notebook")
-5. Make sure you have selected the right project "engcheng-testing" \
-![Choose the right project](./assets/S1_5.png "Choose the right project")
-6. Click "Create a Workspace" and give it a unique, memorable name.
-7. With the workspace available to house different services, select "Compute Instances" on the left.
-8. We can see that there are no compute instances running currently. Let's create one by selecting "New Compute Instance".
-9. "Lab 1 - vCluster" service was provisioned by administrator to us as a template. Let's create a service out of it by clicking on "Select".
-![Creating a new cluster](./assets/S1_9.png "Creating a new cluster")
+5. "Lab 1 - vCluster" service was provisioned by administrator to us as a template. Let's create a service out of it by clicking on "Select".
+![Select Notebook Profiles](./assets/L2-Select-Notebook-Profiles.png "Select Notebook Profiles")
 10. Give your vCluster a name and click "Deploy"
 ![A name for vCluster](./assets/S1_10.png "Cluster name. Choose the right workspace")
 11. The cluster will start to be provisioned. It's progress can be monitored in "Status Tracker".
